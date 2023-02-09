@@ -2,8 +2,9 @@ package com.iesam.AlonsoMadrigal.domain.models;
 
 public class Matriculas {
     private String id;
-    private String curso;
+    private Cursos curso;
 
+    private Alumnos alumnos;
     public String getId() {
         return id;
     }
@@ -12,11 +13,13 @@ public class Matriculas {
         this.id = id;
     }
 
-    public String getCurso() {
+    public Cursos getCurso(Cursos curso1) {
         return curso;
     }
 
-    public void setCurso(String curso) {
-        this.curso = curso;
+
+
+    public Alumnos getAlumnos(Alumnos alumno1){
+        return alumnos;
     }
 }

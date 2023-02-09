@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Profesores extends Persona{
     private String titulo;
-    private Date fecha_alta;
+    private String  fecha_alta;
 
     public String getTitulo() {
         return titulo;
@@ -14,11 +14,11 @@ public class Profesores extends Persona{
         this.titulo = titulo;
     }
 
-    public Date getFecha_alta() {
+    public String getFecha_alta() {
         return fecha_alta;
     }
 
-    public void setFecha_alta(Date fecha_alta) {
+    public void setFecha_alta(String fecha_alta) {
         this.fecha_alta = fecha_alta;
     }
 }
